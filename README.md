@@ -10,9 +10,10 @@ Dynamic hand gesture is an emerging and promising biometric trait. It contains b
  <div align="center">
  <p align="center">
   <img src="https://raw.githubusercontent.com/SCUT-BIP-Lab/DwTNL-Net/master/img/DwTNL-Net.png" />
- The overall architecture of DwTNL-Net. The GSAP and GTAP denote global spatial average pooling and global temporal average pooling, respectively. In order not to adjust the structure of the pretrained 2D CNN, we group four frames into a clip.
 </p>
 </div>
+
+ The overall architecture of DwTNL-Net. The GSAP and GTAP denote global spatial average pooling and global temporal average pooling, respectively. In order not to adjust the structure of the pretrained 2D CNN, we group four frames into a clip.
 
 
 ## Comparisons with selected SOTAs
@@ -21,10 +22,10 @@ To prove the rationality and superiority of our DwTNL-Net, we conduct extensive 
  <div align="center">
  <p align="center">
   <img src="https://raw.githubusercontent.com/SCUT-BIP-Lab/DwTNL-Net/master/img/Comprehensive_Comparison.png" />
-  Comparisons with some representative video understanding networks and 3D version attention modules (based on the TSClips) selected from the experiment section in terms of EER, GFLOPs/Video, and parameter number (#Params). The TSClips denotes the TSN equipped with our TS module. It is clear that compared with other excellent video understanding networks covering 3D CNNs, two-stream CNNs, and 2D CNNs, our TS module can reduce the computational burden to a great extent and can also significantly lower the EER. As illustrated in the enlarged view of the area around the TSClips, our DwTNL module  can also balance EER and FLOPs, and thus can further improve the performance of hand gesture authentication systems.
-  
  </p>
 </div>
+
+  Comparisons with some representative video understanding networks and 3D version attention modules (based on the TSClips) selected from the experiment section in terms of EER, GFLOPs/Video, and parameter number (#Params). The TSClips denotes the TSN equipped with our TS module. It is clear that compared with other excellent video understanding networks covering 3D CNNs, two-stream CNNs, and 2D CNNs, our TS module can reduce the computational burden to a great extent and can also significantly lower the EER. As illustrated in the enlarged view of the area around the TSClips, our DwTNL module  can also balance EER and FLOPs, and thus can further improve the performance of hand gesture authentication systems.
 
 ## Dependencies
 Please make sure the following libraries are installed successfully:
